@@ -1,6 +1,6 @@
 ---
 theme: seriph
-background: ./image/EME4background.png
+background: '/EME4background.png'
 class: text-center
 highlighter: shikiji
 lineNumbers: false
@@ -567,7 +567,7 @@ drop-shadow-2xl" />
 
 ---
 layout: image
-image: ./image/EME4_FUNDO_FIM2.png
+image: /EME4_FUNDO_FIM2.png
 ---
 
 # Contato 
