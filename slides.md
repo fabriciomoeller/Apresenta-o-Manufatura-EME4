@@ -175,12 +175,12 @@ timeline
 ---
 
 
-# A Manufatura metal mecânica
+# A Manufatura do Queijo Minas Frescal
 Resolvendo a Lista de Material e Roteiro de Produção
 
 <div class="absolute top-5 right-25 ">
 
-![](/clientes/sulbras/image/revestimento-poliuretano.png){width=100px lazy}
+![](/clientes/Nuvio%20Foods/image/vitalatte_matinal_minas_frescal_tradicional.png){width=150px lazy}
 
 </div>
 
@@ -190,10 +190,18 @@ Resolvendo a Lista de Material e Roteiro de Produção
 
  | ITEM | QUANTIDADE PAI (EM LITROS) | QUANTIDADE FILHO |
  | --- | --- | --- |
- | Tarugo de Poliuretano Alta Performance de 3 metros | 10 | 2.500 ml |
- | Refugo Tarugo de Poliuretano  | 10 | 100 ml |
- | Eixo de metal 3 metros | 10 | 2.700 ml |
- | Refugo Eixo de metal 3 metros | 10 | 100 ml |
+ | Leite vaca in natura padrão | 10 | 100 litros |
+ | Sal ref extra cisne 25kg ind(vermelho) | 10 | 1.000 g |
+ | Cloreto de calcio | 10 | 300 ml |
+ | Fermento dvs tcc 20 500u congelado | 10 | 1.000 ml |
+ | Chy max extra bb 5 litros (coagulante) | 10 | 60 ml |
+ | Pote ( prt 530 ) - leve | 10 | 20 un |
+ | Pote vita 500g - minas frescal tradicional ( PRT 530 ) | 10 | 20 un |
+ | Tampa vita 500g - minas frescal trad (imp) (st 125) (st 130) | 10 | 20 un |
+ | Saco vita/eur 20 x 35 - minas frescal pote (bobina) (liso) | 10 | 20 un |
+ | Saco vita/eur 20 x 35 - minas frescal pote (bobina) (liso) | 10 | 20 un |
+ | Cx vita - nº 15 - 06 pt - 500g | 10 | 3 un |
+ | Fita adesiva 12mmx120m branca (embalar queijo) - 50 microns | 10 | 3 metros |
 
 </div> 
 
@@ -201,9 +209,13 @@ Resolvendo a Lista de Material e Roteiro de Produção
 
 |ROTEIRO DE PRODUÇÃO|TEMPO|
 |--|--|
-|Corte | 30 minutos |
-|Torno | 45 minutos |
-|Montagem | 30 minutos |
+|Mistura Fermento Lácteo (DVS) | 30 minutos |
+|Mistura Cloreto de Calcio e Coagulação| 45 minutos |
+|Corte da Coalhada com a Lira| 10 minutos |
+|Mexedura| 20 minutos |
+|Salga| 10 minutos |
+|Formas de Minas Frescal | 60 minutos |
+|Embalagem| 15 minutos |
 </div>
 
 </div>
@@ -226,7 +238,6 @@ Observação: Na lista de material podem ser adicionados itens Alternativos, ger
   }
 
 </style>
-
 
 ---
 
@@ -365,21 +376,21 @@ Situações da Ordem de produção por etapas
 <div class="flex gap-4 mt-5 font-mono">
  Estoque
 
-<div class="flex-auto"/>
+<div class="flex-auto w-5"/>
 
-  <DialogBox v-click="[3,7]"  bg="gray-600 dark:gray-300" text="gray-300 dark:gray-600">
+  <DialogBox v-click="[3,7]"  bg="gray-600 dark:gray-300" text="gray-300 dark:gray-600" pl-3 pr-3>
     Baixada
   </DialogBox>
   
-  <DialogBox v-click="[4,7]"  bg="gray-600 dark:gray-300" text="gray-300 dark:gray-600">
+  <DialogBox v-click="[4,7]"  bg="gray-600 dark:gray-300" text="gray-300 dark:gray-600" pl-3 pr-3>
     Em Andamento
   </DialogBox>
 
-  <DialogBox v-click="[5,7]"  bg="gray-600 dark:gray-300" text="gray-300 dark:gray-600">
+  <DialogBox v-click="[5,7]"  bg="gray-600 dark:gray-300" text="gray-300 dark:gray-600" pl-3 pr-3>
     Finalizada
   </DialogBox>
 
-  <DialogBox v-click="[6,7]"  bg="gray-600 dark:gray-300" text="gray-300 dark:gray-600">
+  <DialogBox v-click="[6,7]"  bg="gray-600 dark:gray-300" text="gray-300 dark:gray-600" pl-3 pr-3>
     Concluída
   </DialogBox>
 

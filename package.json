@@ -5,7 +5,9 @@
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",
+    "remote": "slidev --open --remote",
     "export": "slidev export"
+
   },
   "dependencies": {
     "@slidev/cli": "^0.48.0-beta.19",
