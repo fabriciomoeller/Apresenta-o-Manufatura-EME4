@@ -1,0 +1,24 @@
+{
+  "name": "manufatura",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.48.0-beta.19",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "^0.25.0",
+    "playwright-chromium": "^1.42.1",
+    "vue": "^3.4.20"
+  },
+  "devDependencies": {
+    "@iconify-json/fluent": "^1.1.45",
+    "@iconify-json/ic": "^1.1.17",
+    "@iconify-json/mdi": "^1.1.63",
+    "@iconify-json/uim": "^1.1.9",
+    "twoslash": "^0.2.4"
+  }
+}
